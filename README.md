@@ -6,6 +6,10 @@ A project that aims to build a model for predicting the behavior of Strain harde
 The files in this project show our current progress on this work. The team is currently working to simplify the algorithm so that researchers are able to use it for any other applications.
 
 # Data Description
+Two ".xlsx" files are provided in this project.
+* "Full SHCC Dataset.xlsx" is the Raw dataset collected from literature
+* "sep_dataset.xlsx" is the processed dataset used for training the models
+
 To develop the model, data were collected from a comprehensive literature review of articles.
 The dataset consists of several parameters related to the mix design and mechanical properties of SHCC. The mix design
 parameters included in the database are the amount of cement, water, fine aggregate, fly ash, silica fume, cenosphere, blast
