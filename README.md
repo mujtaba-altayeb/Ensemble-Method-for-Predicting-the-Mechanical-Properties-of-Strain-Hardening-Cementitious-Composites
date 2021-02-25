@@ -1,14 +1,30 @@
 # Ensemble-Method-for-Predicting-the-Mechanical-Properties-of-Strain-Hardening-Cementitious-Composites
 A project that aims to build a model for predicting the behavior of Strain hardening cementitious composites also known as Engineered Cementitious Composites
 
-> This project contains the SHCC data files and Codes for the FDNN Algorithm from the paper "An Ensemble Method for Predicting the Mechanical Properties of Strain Hardening Cementitious Composites" in CONSTRUCTION AND BUILDING MATERIALS journal.
+> This project contains the SHCC data files and Codes for the FDNN Algorithm from the paper "An Ensemble Method for Predicting the Mechanical Properties of Strain Hardening Cementitious Composites" in CONSTRUCTION AND BUILDING MATERIALS journal. 
 
-The files in this project show our current progress on this work. The team is currently working to simplify the algorithm so that researchers are able to use it for any other applications.
+To understand how the model works and the results it is able to achieve, the authors recommend you to read their paper "An Ensemble Method for Predicting the Mechanical Properties of Strain Hardening Cementitious Composites" in CONSTRUCTION AND BUILDING MATERIALS journal. The files in this project show our current progress on this work. The team is currently working to simplify the algorithm so that researchers are able to use it for any other applications.
 
 # Data Description
+The folder "Models" Contains the models in the project organized as follows:
+* "Comparison Models" is the folder Containing the models currently available for comparison with our FDNN.
+* "FDNN Ensemble" Folder contains the neural network models for the FDNN ensemble
+* "FRST" Folder contains the random forest regressors component of the FDNN ensemble
+
 Two ".xlsx" files are provided in this project.
 * "Full SHCC Dataset.xlsx" is the Raw dataset collected from literature
 * "sep_dataset.xlsx" is the processed dataset used for training the models
+
+Five other files are provided in this project, as:
+* "Data description.txt" contains a small description of the data
+* "FDNN Training.ipynb" contains the FDNN training algorithm
+* "FDNN predictor.ipynb" contains a small demo of how to use the FDNN models to predict the properties of SHCC
+* "normalization_coefficiants.py" contains the normalization values that can be used to encode and decode the inputs for prediction purposes
+* "predict SHCC mix.py" is a python implementation of the "FDNN predictor.ipynb" file
+* "sep_dataset.xlsx" is the processed dataset used for training the models
+
+Note:
+- To run the ipynb files, the user need to install python and jupyter notebook
 
 To develop the model, data were collected from a comprehensive literature review of articles.
 The dataset consists of several parameters related to the mix design and mechanical properties of SHCC. The mix design
