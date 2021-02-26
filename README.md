@@ -52,7 +52,7 @@ For simplicity, the following abbreviations are used in the names of the FDNNs m
 * first crack flexural strain (fs1)
 * peak flexural strain (fs2).
 
-# Aknowledgement
+# Acknowledgements
 The authors gratefully acknowledge the financial support provided by the National Key Research and Development Program of China (2017YFC0703000).
 
 # Using the Data, Algorithm or model
