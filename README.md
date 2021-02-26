@@ -58,7 +58,7 @@ The authors gratefully acknowledge the financial support provided by the Nationa
 # Using the Data, Algorithm or model
 If you intend to use part or all of the SHCC dataset or the FDNN algorithm or model in this project, the authors Kindly request that you cite their work:
 
-{Mohamedelmujtaba Altayeb, Wang Xin, Taha Hussein Musa}
+{Mohamedelmujtaba Altayeb, Wang Xin* (Corresponding Author & project Supervisor), Taha Hussein Musa}
 **An Ensemble Method for Predicting the Mechanical Properties of Strain Hardening Cementitious Composites**
 in CONSTRUCTION AND BUILDING MATERIALS journal.
 
